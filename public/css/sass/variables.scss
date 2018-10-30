@@ -1,0 +1,45 @@
+$font: "Nunito", sans-serif;
+
+$primary-color: #343a40;
+$hover: #343a40;
+$bg-one: #26445f;
+$bg-two: #4098e7;
+$text-color: #666f77;
+
+%primary-button {
+  background: #34acfa;
+  border-radius: 4px;
+  padding: 5px 35px;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  text-decoration: none;
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: $bg-one;
+    transition: all 0.3s ease;
+  }
+}
+
+%secondary-button {
+  display: inline-block;
+  width: 30%;
+  margin: auto;
+  padding: 10px 30px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: #fff;
+    color: #343a40;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+}
+

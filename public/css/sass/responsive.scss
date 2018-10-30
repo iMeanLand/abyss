@@ -1,0 +1,55 @@
+@media screen and (max-width: 1468px) {
+  .admin-sidebar {
+    width: 20% !important;
+  }
+
+  .admin-container {
+    width: 80%;
+    margin-left: 20%;
+  }
+
+  .user-avatar-left {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+
+  .admin-container {
+    width: 75%;
+    margin-left: 25%;
+  }
+
+  .admin-sidebar {
+    width: 25% !important;
+
+    .admin-sidebar-navigation {
+
+      .user-name {
+        font-size: 14px !important;
+        margin-left: 10px;
+      }
+
+      .user-avatar-left {
+        width: 65px;
+        height: 65px;
+      }
+
+      li {
+        list-style: none;
+        font-size: 12px;
+        line-height: 16px;
+
+      }
+    }
+  }
+
+  .admin-logo {
+    margin-top: 10px;
+    width: 25%;
+    margin-left: 0 !important;
+    text-align: center;
+  }
+
+}

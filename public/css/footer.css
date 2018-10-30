@@ -1,0 +1,11 @@
+footer {
+    width: 100%;
+    background: #ddd;
+    padding: 75px 0;
+}
+
+.foo-col {
+    display: inline-block;
+    width: calc(380px - 30px);
+    max-width: 100%;
+}

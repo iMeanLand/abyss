@@ -1,0 +1,42 @@
+@media screen and (max-width: 1180px) {
+  .admin-sidebar {
+    width: 20%; }
+    .admin-sidebar .admin-sidebar-navigation .user-name {
+      font-size: 14px;
+      margin-left: 10px; }
+    .admin-sidebar .admin-sidebar-navigation .user-avatar {
+      width: 55px; }
+    .admin-sidebar .admin-sidebar-navigation li {
+      list-style: none;
+      font-size: 14px;
+      line-height: 16px;
+      margin: 25px 25px; }
+
+  .admin-container {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: calc(80% - 50px);
+    float: left; } }
+@media screen and (max-width: 768px) {
+  .admin-sidebar {
+    width: 25%; }
+    .admin-sidebar .admin-sidebar-navigation .user-name {
+      font-size: 14px;
+      margin-left: 10px; }
+    .admin-sidebar .admin-sidebar-navigation .user-avatar {
+      width: 55px; }
+    .admin-sidebar .admin-sidebar-navigation li {
+      list-style: none;
+      font-size: 12px;
+      line-height: 16px;
+      margin: 25px 25px; }
+
+  .admin-container {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: calc(75% - 50px);
+    float: left; } }
+
+/*# sourceMappingURL=responsive.css.map */

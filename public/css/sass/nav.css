@@ -1,0 +1,27 @@
+.navigation-bar {
+  background: #f7f7f7;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.05); }
+  .navigation-bar .menu {
+    display: block;
+    width: 100%; }
+    .navigation-bar .menu .logo {
+      float: left;
+      padding: 10px;
+      margin-right: 30px; }
+      .navigation-bar .menu .logo a {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 600; }
+    .navigation-bar .menu .navigation-menu {
+      display: block; }
+      .navigation-bar .menu .navigation-menu li {
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 16px;
+        font-weight: 600; }
+    .navigation-bar .menu .register-navigation {
+      display: inline-block;
+      float: right; }
+
+/*# sourceMappingURL=nav.css.map */
